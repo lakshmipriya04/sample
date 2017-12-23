@@ -9,7 +9,63 @@ body {
 }
 
 .page {
-   
+
+}
+
+/* buttons */
+
+.live-btn {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    background: #EF413A;
+    padding: 7px 12px 7px 12px;
+    text-decoration: none;
+}
+
+.live-btn:hover {
+    color: #ffffff;
+    background: #fa3c62;
+    text-decoration: none;
+}
+
+.next-btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #020303;
+  padding: 7px 9px;
+  text-decoration: none;
+}
+
+.next-btn:hover {
+  color: #ffffff;
+  background: #434746;
+  text-decoration: none;
+}
+
+.match-videos-btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #252531;
+  font-size: 14px;
+  background: #FFFFFF ;
+  padding: 12px 15px;
+  border: solid #50516d 1px;
+  text-decoration: none;
+}
+
+.match-videos-btn:hover {
+  background: #e2edf0;
+  text-decoration: none;
 }
 
 .team-bar {
@@ -28,12 +84,20 @@ body {
 .side-updates {
     width: 348px;
     height: 614px;
-    border: 1px solid black;
+    border: 1px solid #F7F7F7;
     border-radius: 10px;
     float: left;
-    background-color: coral;
+    background-color: #FFFFFF;
     margin: 20px 25px 9px 20px;
 }
+
+.side-updates .row {
+    height: 125px;
+    padding: 15px 21px 22px 36px;
+}
+
+
+
 
 .live {
     background-color: #0D0B39;
@@ -50,7 +114,7 @@ body {
 
 .live-match-score {
     float: right;
-     height:335px;
+    height:335px;
     background-color: #0D0B39;
 }
 
