@@ -21,45 +21,48 @@ body {
     align-items: center;
 }
 
-.teambar {
+.team-bar {
     height: 42px;
 }
 
-.menubar {
+.menu-bar {
     background-color: #0D0B39;
     height: 66px;
 }
 
-.newsbar {
+.news-bar {
     height: 50px;
 }
 
-.header {
-    background-color: #B2D6FF;
+.side-updates {
+    width: 348px;
+    height: 614px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
 }
 
-.content {
-    background-color: #EAEDF0;
-    height: 600px;
-    order: 2;
+.live {
+    background-color: #0D0B39;
+    height: 375px;
 }
 
-.sign-up {
-    height: 200px;
-    order: 1;
-    background-color: #D6E9FE;
+.live-match {
+    float:left;
+    width:595px;
+    height:335px;
+    background-color: pink;
 }
 
-.feature-1 {
-    background-color: #F5CF8E;
+.live-match-score {
+    float: right;
+    width: 300px;
+     height:335px;
+    background-color: peru;
 }
 
-.feature-2 {
-    background-color: #F09A9D;
-}
-
-.feature-3 {
-    background-color: #C8C6FA;
+.previous-match {
+    height: 268px;
 }
 
 /* Mobile Styles */
@@ -69,10 +72,7 @@ body {
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .sign-up,
-    .feature-1,
-    .feature-2,
-    .feature-3 {
+    .live-match, .previous-match  {
         width: 50%;
     }
 }
@@ -83,12 +83,7 @@ body {
         width: 100%;
         margin: 0 auto;
     }
-    .feature-1,
-    .feature-2,
-    .feature-3 {
+    .live-match, .previous-match {
         width: 33.3%;
-    }
-    .header {
-        height: 400px;
     }
 }
